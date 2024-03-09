@@ -1,0 +1,97 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (18) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1661milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1661"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50045"}
+{"logLevel":"info","message":"Listening on port:50045"}
+2024-03-08 01:28:45 INFO  Reflections:219 scan - Reflections took 2300 ms to scan 90 urls, producing 10605 keys and 59412 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.dropDownRandomddSaveAfter' and 'com.trendyol.page.BaseSteps.dropDownRandomddSaveAfter'"}
+{"logLevel":"debug","message":"Found {} elementinin text değerinin boşluk sonrası/öncesi(varsa) atılır ve belleğe kaydedilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.switchToPage2' and 'com.trendyol.page.BaseSteps.switchToPage2'"}
+{"logLevel":"debug","message":"Found İkinci sekmeye geçilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.checkElementValueEqualsTempData' and 'com.trendyol.page.BaseSteps.checkElementValueEqualsTempData'"}
+{"logLevel":"debug","message":"Found {} elementinin text değeri tempData'da saklanan değere eşittir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.checkElementCountEquals' and 'com.trendyol.page.BaseSteps.checkElementCountEquals'"}
+{"logLevel":"debug","message":"Found {} element size değeri {} değerine eşit mi kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.priceAssertionsSplit' and 'com.trendyol.page.BaseSteps.priceAssertionsSplit'"}
+{"logLevel":"debug","message":"Found {} elementinin text içeriği belleğe kaydedilen text ile eşit olduğu kontrol edilir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.checkExpectedEqualsUnexpected' and 'com.trendyol.page.BaseSteps.checkExpectedEqualsUnexpected'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içerdiği {} değerini içermediği kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.clickOnRandomItemInList' and 'com.trendyol.page.BaseSteps.clickOnRandomItemInList'"}
+{"logLevel":"debug","message":"Found {} menusünden random seçim yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.elementAttributeValueCheck' and 'com.trendyol.page.BaseSteps.elementAttributeValueCheck'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.checkElementEqualsText' and 'com.trendyol.page.BaseSteps.checkElementEqualsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.waitSecond' and 'com.trendyol.page.BaseSteps.waitSecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.pressEnter' and 'com.trendyol.page.BaseSteps.pressEnter'"}
+{"logLevel":"debug","message":"Found ENTER tuşuna bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.clickElement' and 'com.trendyol.page.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.checkDisabled' and 'com.trendyol.page.BaseSteps.checkDisabled'"}
+{"logLevel":"debug","message":"Found {} elementinin disabled olduğunu kotrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.trendyol.page.BaseSteps.sendKeys' and 'com.trendyol.page.BaseSteps.sendKeys'"}
+{"logLevel":"debug","message":"Found {} li elementi bul temizle ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tİkinci sekmeye geçilir : public void switchToPage2()"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içerdiği {} değerini içermediği kontrol edilir : public void checkExpectedEqualsUnexpected(String key, String expected, String unexpected)"}
+{"logLevel":"debug","message":"\t{} elementinin text değerinin boşluk sonrası/öncesi(varsa) atılır ve belleğe kaydedilir {} : public void dropDownRandomddSaveAfter(String key, ınt count)"}
+{"logLevel":"debug","message":"\t{} elementinin text içeriği belleğe kaydedilen text ile eşit olduğu kontrol edilir {} : public void priceAssertionsSplit(String key, ınt count)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementEqualsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} li elementi bul temizle ve {} değerini yaz : public void sendKeys(String key, String text)"}
+{"logLevel":"debug","message":"\t{} menusünden random seçim yap : public void clickOnRandomItemInList(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text değeri tempData'da saklanan değere eşittir : public void checkElementValueEqualsTempData(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitSecond(ınt seconds) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementinin disabled olduğunu kotrol et : public void checkDisabled(String key)"}
+{"logLevel":"debug","message":"\tENTER tuşuna bas : public void pressEnter()"}
+{"logLevel":"debug","message":"\t{} element size değeri {} değerine eşit mi kontrol et : public void checkElementCountEquals(String key, ınt expectedCount)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerine sahip mi : public void elementAttributeValueCheck(String key, String attribute, String value) throws InterruptedException"}
+2024-03-08 01:28:47 INFO  Reflections:219 scan - Reflections took 920 ms to scan 90 urls, producing 10515 keys and 50256 values
+2024-03-08 01:28:47 INFO  BaseTest:113 startSetup - Cihazda windows ortamında chrome browserinda test ayağa kalkacak
+Mar 08, 2024 1:28:47 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}) on port 26334
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2024-03-08 01:28:49 INFO  BaseTest:117 startSetup - Driver başlatılırken hata oluştu session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 122.0.6261.112 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MTFJOQ0', ip: '192.168.3.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_391'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7AECB82B2+55298]
+	(No symbol) [0x00007FF7AEC25E02]
+	(No symbol) [0x00007FF7AEAE05AB]
+	(No symbol) [0x00007FF7AEB13E72]
+	(No symbol) [0x00007FF7AEB132FE]
+	(No symbol) [0x00007FF7AEB0EC6C]
+	(No symbol) [0x00007FF7AEB0B30E]
+	(No symbol) [0x00007FF7AEB4A198]
+	(No symbol) [0x00007FF7AEB49CB0]
+	(No symbol) [0x00007FF7AEB41E83]
+	(No symbol) [0x00007FF7AEB1670A]
+	(No symbol) [0x00007FF7AEB17964]
+	GetHandleVerifier [0x00007FF7AF030AAB+3694587]
+	GetHandleVerifier [0x00007FF7AF08728E+4048862]
+	GetHandleVerifier [0x00007FF7AF07F173+4015811]
+	GetHandleVerifier [0x00007FF7AED547D6+695590]
+	(No symbol) [0x00007FF7AEC30CE8]
+	(No symbol) [0x00007FF7AEC2CF34]
+	(No symbol) [0x00007FF7AEC2D062]
+	(No symbol) [0x00007FF7AEC1D3A3]
+	BaseThreadInitThunk [0x00007FFEE0727344+20]
+	RtlUserThreadStart [0x00007FFEE24626B1+33]
+
+{"logLevel":"debug","message":"Executing 'Elementine tıkla {}' using 'class com.trendyol.page.BaseSteps.clickElement"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

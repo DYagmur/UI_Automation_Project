@@ -1,0 +1,73 @@
+[
+  {
+    "key": "CerezKabulEt",
+    "value": "button[id='onetrust-accept-btn-handler']",
+    "type": "css"
+  },
+  {
+    "key" : "searchboxInput",
+    "value" : "input[class='o-header__search--input']",
+    "type" : "css"
+  },
+  {
+    "key" : "TümUrunlerRandom",
+    "value" : "span[class='m-productCard__desc']",
+    "type" : "css"
+  },
+  {
+    "key" : "ProductPrice",
+    "value" : "[id='priceNew']",
+    "type" : "css"
+  },
+  {
+    "key" : "SepeteEklendiButton",
+    "value" : "[id='addBasket']",
+    "type" : "css"
+  },
+  {
+    "key" : "SepetimButton",
+    "value" : "a[title='Sepetim']",
+    "type" : "css"
+  },
+  {
+    "key" : "SepettekiPrice",
+    "value" : "//span[text()='Ödenecek Tutar']/following::span[1]",
+    "type" : "xpath"
+  },
+  {
+    "key" : "SepettekiTümUrünler",
+    "value" : "div[class='pb-basket-item-wrapper-v2']",
+    "type" : "css"
+  },
+  {
+    "key" : "cinsiyetSecimKapat",
+    "value" : "//button[@class='o-modal__closeButton bwi-close']/*",
+    "type" : "xpath"
+  },
+  {
+    "key" : "bedenSec",
+    "value" : "//span[contains(@class, 'm-variation__item') and not(contains(@class, '-disabled'))]",
+    "type" : "xpath"
+  },
+  {
+    "key" : "birdenFazlaKontrol",
+    "value" : "//option[@value='2']",
+    "type" : "xpath"
+  },
+  {
+    "key" : "urunAdetList",
+    "value" : "//select[@class='a-selectControl -small']",
+    "type" : "xpath"
+  },
+  {
+    "key" : "silBtn",
+    "value" : "//span[text()='Sil']",
+    "type" : "xpath"
+  },
+  {
+    "key" : "sepetBos",
+    "value" : "//strong[text()='Sepetinizde Ürün Bulunmamaktadır']",
+    "type" : "xpath"
+  }
+
+]
